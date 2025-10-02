@@ -5,40 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escola Sunnydale - Inspirando Aprendizado para a Vida</title>
-    <meta name="description" content="A Escola Sunnydale é dedicada a cultivar o amor pelo aprendizado em cada aluno. Conheça nossos eventos, missão e informações de contato.">
+    <meta name="description" content="A Escola Sunnydale é dedicada a cultivar o amor pelo aprendizado em cada aluno. Conheça nossos programas, eventos, missão e informações de contato.">
     <meta name="author" content="Escola Sunnydale">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Escola Sunnydale</h1>
-        <p>Bem-vindo à Escola Sunnydale, dedicada a cultivar o amor pelo aprendizado em cada aluno.</p>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logotipo da Escola Sunnydale">
+        </div>
+        <p class="descricao">Bem-vindo à Escola Sunnydale, dedicada a cultivar o amor pelo aprendizado em cada aluno.</p>
+        <nav>
+            <ul>
+                <li><a href="#missao">Missão</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#programas">Nossos Programas</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Missão</h2>
-            <p>Nossa missão é fornecer uma educação de qualidade que prepare todas as crianças para um futuro de sucesso.</p>
+        <section class="banner">
+            <img src="img/banner.png" alt="Crianças felizes estudando na Escola Sunnydale">
         </section>
 
-        <section>
+        <section id="missao">
+            <h2>Missão</h2>
+            <p>Nossa missão é fornecer uma educação de qualidade que prepare todas as crianças para um futuro de sucesso, estimulando a curiosidade e o pensamento crítico em um ambiente acolhedor.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Fundada em 2010, a Escola Sunnydale nasceu com o objetivo de ser mais do que uma escola, mas uma comunidade de aprendizado. Nossa filosofia é baseada no construtivismo, onde o aluno é o protagonista de sua própria jornada educacional.</p>
+            <h3>Nossa Estrutura</h3>
+            <div class="galeria-infraestrutura">
+                <img src="img/img1.png" alt="Biblioteca da escola">
+                <img src="img/img2.png" alt="Laboratório de ciências">
+                <img src="img/img3.png" alt="Quadra de esportes">
+            </div>
+        </section>
+
+        <section id="programas">
+            <h2>Nossos Programas</h2>
+            <article class="programa-item">
+                <img src="img/img4.png" alt="Crianças brincando na educação infantil">
+                <div>
+                    <h3>Educação Infantil</h3>
+                    <p>Um ambiente lúdico e seguro onde as crianças desenvolvem a coordenação, a socialização e a criatividade através de jogos, música e arte.</p>
+                </div>
+            </article>
+            <article class="programa-item">
+                <img src="img/img5.png" alt="Alunos concentrados em sala de aula">
+                <div>
+                    <h3>Ensino Fundamental</h3>
+                    <p>Foco no desenvolvimento do raciocínio lógico, da leitura e da escrita, com projetos interdisciplinares que conectam o aprendizado à vida real.</p>
+                </div>
+            </article>
+            <article class="programa-item">
+                <img src="img/img6.png" alt="Crianças em atividade extracurricular de música">
+                <div>
+                    <h3>Atividades Extracurriculares</h3>
+                    <p>Oferecemos aulas de inglês, judô, balé e musicalização para complementar o desenvolvimento integral dos nossos alunos.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="eventos">
             <h2>Próximos Eventos</h2>
             <ul>
-                <li>Feira de Ciências - 10 de junho</li>
-                <li>Exposição de Arte - 15 de junho</li>
-                <li>Dia do Esporte - 20 de junho</li>
+                <li>
+                    <strong>Feira de Ciências - 10 de junho, das 9h às 13h:</strong>
+                    Nossos jovens cientistas apresentarão seus incríveis projetos no pátio principal.
+                </li>
+                <li>
+                    <strong>Exposição de Arte - 15 de junho, das 10h às 15h:</strong>
+                    Explore a criatividade dos nossos alunos em uma exposição colorida no salão de eventos.
+                </li>
+                <li>
+                    <strong>Dia do Esporte - 20 de junho, a partir das 8h:</strong>
+                    Um dia de muita diversão e jogos em nossa quadra poliesportiva. Traga a família para torcer!
+                </li>
             </ul>
         </section>
+        
+        <section id="docentes">
+            <h2>Corpo Docente</h2>
+            <p>Nossa equipe é formada por profissionais apaixonados pela educação.</p>
+            <article>
+                <img src="img/docente1.jpg" alt="Foto da Diretora Ana Lúcia">
+                <div>
+                    <h4>Ana Lúcia - Diretora Pedagógica</h4>
+                    <p>Com mais de 20 anos de experiência, Ana Lúcia lidera nossa escola com uma visão humanista e inovadora.</p>
+                </div>
+            </article>
+            <article>
+                <img src="img/docente2.jpg" alt="Foto do Professor Ricardo Mendes">
+                <div>
+                    <h4>Ricardo Mendes - Professor de Matemática</h4>
+                    <p>Especialista em metodologias ativas, Ricardo transforma a matemática em uma aventura fascinante para os alunos.</p>
+                </div>
+            </article>
+        </section>
 
-        <section>
+        <section id="contato">
             <h2>Contato</h2>
-            <p>Email: <a href="mailto:contato@escolasunnydale.com">contato@escolasunnydale.com</a></p>
-            <p>Telefone: <a href="tel:+555551234">555-1234</a></p>
+            <p><strong>Endereço:</strong> Rua das Flores, 123 - Bairro Feliz, Cidade-UF</p>
+            <p><strong>Email:</strong> <a href="mailto:contato@escolasunnydale.com">contato@escolasunnydale.com</a></p>
+            <p><strong>Telefone:</strong> <a href="tel:+555551234">(55) 555-1234</a></p>
+            <h3>Envie uma Mensagem</h3>
+            <form action="#" method="post" id="contact-form">
+                <div>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 Escola Sunnydale. Todos os direitos reservados.</p>
+        <p>Rua das Flores, 123 - Bairro Feliz | Telefone: (55) 555-1234</p>
     </footer>
+
+    <script src="script/script.js"></script>
 </body>
 </html>
