@@ -70,3 +70,30 @@ style.innerHTML = `
 }
 `;
 document.head.appendChild(style);
+
+// --- LÓGICA PARA O BOTÃO VOLTAR AO TOPO ---
+
+// Pega o elemento do botão
+const btnTopo = document.getElementById("btnTopo");
+
+// Função que decide se o botão aparece ou não
+function toggleBotaoTopo() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        btnTopo.classList.add("mostrar");
+    } else {
+        btnTopo.classList.remove("mostrar");
+    }
+}
+
+// Função para rolar a página suavemente para o topo
+function voltarAoTopo(event) {
+    event.preventDefault(); // Impede o link de pular para o topo bruscamente
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth" // Efeito de rolagem suave
+    });
+}
+
+// Adiciona os "escutadores" de eventos
+window.addEventListener("scroll", toggleBotaoTopo); // Escuta a rolagem da página
+btnTopo.addEventListener("click", voltarAoTopo);    // Escuta o clique no botão
