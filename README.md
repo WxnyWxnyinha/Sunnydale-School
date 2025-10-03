@@ -1,6 +1,3 @@
-
-![Logo Sunnydale School](img/logo.png)
-
 # Sunnydale School ☀️
 
 Bem-vindo ao cantinho da **Sunnydale School**!
@@ -43,7 +40,10 @@ Sunnydale-School/
 
 ## 🌐 Como Visualizar
 
+
 Você pode acessar o site de duas formas:
+
+- **Pelo GitHub Pages:** [Clique aqui e veja o site online! ☀️](https://wxnywxnyinha.github.io/Sunnydale-School/)
 
 - **Clonando o repositório:**
 
@@ -58,7 +58,7 @@ Depois, é só abrir o arquivo `index.html` no seu navegador favorito e aproveit
 Site desenvolvido com muito carinho como parte das atividades do curso de Programação de Sistemas.
 
 
-## � Contato
+## 📬 Contato
 Para dúvidas, sugestões ou só para mandar um recadinho fofo, utilize o formulário de contato do site. Vamos adorar ouvir você! �
 
 ---
