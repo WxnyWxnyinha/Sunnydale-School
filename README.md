@@ -58,7 +58,7 @@ Site desenvolvido com muito carinho como parte das atividades do curso de Progra
 
 
 ## 📬 Contato
-Para dúvidas, sugestões ou só para mandar um recadinho fofo, utilize o formulário de contato do site. Vamos adorar ouvir você! �
+Para dúvidas, sugestões ou só para mandar um recadinho fofo, utilize o formulário de contato do site. Vamos adorar ouvir você!💛
 
 ---
 <div align="center">
